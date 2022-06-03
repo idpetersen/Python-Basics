@@ -10,7 +10,7 @@ def lines_lines_lines(file):
       if len(lines) > 1:
         message += lines.replace("\n","") + " "
   print(message.strip())
-      
+
 
 # main
 def main():
