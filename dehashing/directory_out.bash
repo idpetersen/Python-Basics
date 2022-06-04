@@ -1,6 +1,5 @@
 #!/bin/bash
 
-for i in ./*; do
+for i in *; do
    echo "$i"
 done
-
