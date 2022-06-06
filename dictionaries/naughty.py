@@ -19,11 +19,6 @@ def naughty_or_nice(santa_list):
   print("Nice list has " + str(santas_dictionary["good"]) + " people!")
 
 
-
-
-
-
-
 def main():
   file_name = sys.argv[1]
   naughty_or_nice(file_name)
