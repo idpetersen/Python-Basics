@@ -14,7 +14,7 @@ def encode():
             num = str(num)
         flag_nums = ("FS{cabbage-wait_that's_not_right_" + num + "}")
         hashed_flag = hashlib.md5(flag_nums.encode())
-        translated = hashed_flag.encode()
+        translated = hashed_flag.hexdigest()
 
         if translated == match_this:
             print(num) 
@@ -24,4 +24,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

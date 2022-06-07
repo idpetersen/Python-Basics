@@ -1,0 +1,1 @@
+sudo chmod u=rwx, g=rwx, o=rwx funstuff
