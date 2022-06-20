@@ -33,7 +33,7 @@ def last_three(string):
 
 # Write a function called char_count that takes in a string of a single character as well as a larger string. char_count will return the amount of times the character is found within the larger string (upper or lowercase).
 
-
+#is it working now?
 
 ### YOUR CODE STARTS HERE ###
 def char_count(single_letter, string):
