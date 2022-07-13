@@ -17,7 +17,7 @@ for x in range (1,2000):
             ihdr[height_index - h] = height[-h -1]
         for w in range(len(width)):
             ihdr[width_index - w] = width[-w -1]
-        if hex(crc32(ihdr)) == '0xc615b7e2': #crc
+        if hex(crc32(ihdr)) == '0xc615b7e2': #crc starting with 0x this is the checksum. 
             print("width: {} height: {}".format(width.hex(),height.hex()))
         for i in range(len(width)):
             ihdr[width_index - i] = bytearray(b'\x00')[0]
